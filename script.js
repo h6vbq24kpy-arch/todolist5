@@ -47,6 +47,7 @@
         if (navigator.vibrate) {
           navigator.vibrate(50);
         };
+        saveTasks();
     });
 
     //編集開始(spanをクリック)
