@@ -43,11 +43,6 @@
 
       checkbox.addEventListener("change", () => {
         li.classList.toggle("completed", checkbox.checked);
-      
-        if (navigator.vibrate) {
-          navigator.vibrate(50);
-        };
-        saveTasks();
     });
 
     //編集開始(spanをクリック)
