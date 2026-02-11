@@ -109,6 +109,10 @@
     //ドラッグアンドドロップの実行
       new Sortable(list, {
       animation: 150,
+
+      filter: "input, button",
+      preventOnFilter: false,
+      
       onEnd: () => saveTasks()
     });
 
